@@ -5,9 +5,12 @@
   font-family: sans-serif;
 }
 
+/* header*/
+
 body {
   line-height: 1.6;
 }
+
 
 .jumbotron {
   background: #5865F2;
@@ -37,5 +40,55 @@ body {
   display: flex;
   justify-content: center;
   gap: 1rem;
+}
+
+/* body */
+
+.section {
+  padding: 4rem 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.container .reverse {
+  flex-direction: row-reverse;
+}
+
+.text {
+  flex: 1;
+}
+
+.image {
+  flex-grow: 1;
+  min-height: 200px;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* footer */
+.footer {
+  background: #23272A;
+  color: white;
+  padding: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.columns {
+  display: flex;
+  gap: 2rem;
 }
 
