@@ -48,6 +48,10 @@ body {
   padding: 4rem 2rem;
 }
 
+.section.grey{
+    background-color: #f6f6f6 ;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
